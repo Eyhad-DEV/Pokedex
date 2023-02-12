@@ -1,11 +1,13 @@
 
 
 .pokemons {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;
+    justify-content: space-between;
 }
 
 .normal {
@@ -140,10 +142,10 @@
 
 .pagination button {
     padding: .25rem .5rem;
-    margin: .40rem 0;
-    font-size: .750rem;
+    margin: .25rem 0;
+    font-size: .625rem;
     color: #fff;
-    background-image: linear-gradient(rgb(111, 30, 30), rgb(222, 49, 49)) ;
+    background-color: #6c79db;
     border: none;
     border-radius: 1rem;
 }
