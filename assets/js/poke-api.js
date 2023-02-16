@@ -13,6 +13,8 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
 
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
 
+    pokemon.ability1 = pokeDetail.abilities
+
     return pokemon
 }
 
